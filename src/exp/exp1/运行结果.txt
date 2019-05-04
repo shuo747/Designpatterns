@@ -1,0 +1,68 @@
+（1）
+解决方案2：ADT
+
+输入的每行：
+Designing Software for Ease of Construction
+Figs are Good
+
+经过KWIC系统后输出的每行结果：
+are Good Figs
+for Ease of Construction Designing Software
+of Construction Designing Software for Ease
+Construction Designing Software for Ease of
+Designing Software for Ease of Construction
+Ease of Construction Designing Software for
+Figs are Good
+Good Figs are
+Software for Ease of Construction Designing
+（2）
+解决方案4：pipefilter
+
+输入的每行：
+Designing Software for Ease of Construction
+Figs are Good
+
+经过KWIC系统后输出的每行结果：
+are Good Figs
+for Ease of Construction Designing Software
+of Construction Designing Software for Ease
+Construction Designing Software for Ease of
+Designing Software for Ease of Construction
+Ease of Construction Designing Software for
+Figs are Good
+Good Figs are
+Software for Ease of Construction Designing
+（3）
+解决方案1：Main Program/Subroutine with Shared Data
+
+输入的每行：
+Designing Software for Ease of Construction
+Figs are Good
+
+经过KWIC系统后输出的每行结果：
+are Good Figs
+for Ease of Construction Designing Software
+of Construction Designing Software for Ease
+Construction Designing Software for Ease of
+Designing Software for Ease of Construction
+Ease of Construction Designing Software for
+Figs are Good
+Good Figs are
+Software for Ease of Construction Designing
+（4）
+解决方案3:Implicit Invocation：
+
+输入的每行：
+Designing Software for Ease of Construction
+Figs are Good
+
+经过KWIC系统后输出的每行结果：
+are Good Figs
+for Ease of Construction Designing Software
+of Construction Designing Software for Ease
+Construction Designing Software for Ease of
+Designing Software for Ease of Construction
+Ease of Construction Designing Software for
+Figs are Good
+Good Figs are
+Software for Ease of Construction Designing
