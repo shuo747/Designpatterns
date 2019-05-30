@@ -1,0 +1,21 @@
+package exp.exp3;
+
+/**
+ * @Author: shuo747
+ * @Date: 2019/5/30 22:20
+ */
+public class Test {
+    public static void main(String[] args) {
+        Watched girl = new ConcreteWatched();
+
+        Watcher watcher1 = new ConcreteWatcher();
+        Watcher watcher2 = new ConcreteWatcher();
+        Watcher watcher3 = new ConcreteWatcher();
+
+        girl.addWatcher(watcher1);
+        girl.addWatcher(watcher2);
+        girl.addWatcher(watcher3);
+
+        girl.notifyWatchers("开心");
+    }
+}
